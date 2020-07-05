@@ -1,4 +1,5 @@
 {% extends 'base.html' %}
+{% load static %}
 
 {% block header %}
 <nav class="navbar navbar-expand-md">
@@ -62,6 +63,15 @@
                 ポートフォリオのバックテスト、将来シミュレーション機能などの拡張を行う予定です。
             </p>
             <a href="{% url 'factor_app:factor_main' %}" class="btn btn-primary" tabindex="-1" role="button" aria-disabled="true">市場変動要因分解アプリに移動</a>
+        </article>
+
+        <article class="index-content">
+            <h2 class="index-title"><font size="5">Extra. クソゲー</font></h2>
+            <p>
+                Unityのテストです．<br/>
+            </p>
+            <!-- <a href="{% url 'fps_webgl:fps_webgl_main' %}" class="btn btn-primary" tabindex="-1" role="button" aria-disabled="true">クソゲーに移動</a> -->
+            <a href="{% static 'fps_webgl/index.html' %}" class="btn btn-primary" tabindex="-1" role="button" aria-disabled="true">クソゲーに移動</a>
         </article>
 
     </div>
