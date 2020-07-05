@@ -8,7 +8,7 @@ import numpy as np
 import pandas as pd
 import pandas_datareader.data as pdr
 import matplotlib.pyplot as plt
-from keras import models, layers
+from tensorflow.keras import models, layers
 
 from sklearn.svm import SVC
 from sklearn.linear_model import LogisticRegression

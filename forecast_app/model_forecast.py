@@ -8,8 +8,8 @@ import numpy as np
 import pandas as pd
 import pandas_datareader.data as pdr
 import matplotlib.pyplot as plt
-from keras.models import Sequential
-from keras.layers import Dense
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense
 
 from sklearn.svm import SVC
 from sklearn.linear_model import LogisticRegression
